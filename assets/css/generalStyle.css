@@ -1,0 +1,989 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    background-color: rgb(122, 172, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+}
+
+#header{
+    background-color: rgb(26, 105, 251);
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#header #login-align {
+    float: right;
+    margin-right: 10px;
+}
+
+#header nav{
+    height: 50px;
+    margin-left: 10px;
+}
+
+#header ul li{
+    display: inline;
+}
+
+#header ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: beige;
+}
+
+#header nav ul li a:hover{
+    background-color: rgb(0, 89, 255);
+    padding: 25px;
+    font-weight: bolder;
+    color: black;
+    font-size: 25px;
+    border-radius: 0px 0px 20px 20px;
+    -webkit-border-radius: 0px 0px 20px 20px;
+    -moz-border-radius: 0px 0px 20px 20px;
+    -ms-border-radius: 0px 0px 20px 20px;
+    -o-border-radius: 0px 0px 20px 20px;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+
+#footer{
+    background-color: rgb(0, 89, 255);
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    padding: 10px;
+    height: max-content;
+}
+
+/*Estilos de la pagina de registro*/
+#signup-container{
+    background-color: rgb(26, 105, 251);
+    width: 500px;
+    margin: 60px auto;
+    padding: 10px;
+    border-radius: 25px 0px 25px 0px;
+    -webkit-border-radius: 25px 0px 25px 0px;
+    -moz-border-radius: 25px 0px 25px 0px;
+    -ms-border-radius: 25px 0px 25px 0px;
+    -o-border-radius: 25px 0px 25px 0px;
+    border: rgb(7, 13, 107) 3px solid;
+}
+
+.signup-table{
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#signup-container table th,td{
+    padding: 10px;
+}
+
+#signup-container table td{
+    text-align: left;
+}
+
+.signup-head{
+    border-bottom: rgb(7, 13, 107) 5px solid;
+    text-align: center;
+    font-size: 30px;
+}
+
+.signup-head th::selection{
+    color: black;
+}
+
+.signup-text{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.signup-text label::selection{
+    color: black;
+}
+
+.signup-input input{
+    width: 100%;
+    height: 25px;
+    font-weight: bolder;
+    font-size: 24px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.signup-submit{
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+input{
+    background-color: rgb(202, 236, 255);
+}
+
+select{
+    background-color: rgb(202, 236, 255);
+}
+
+.signup-option #sexo{
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#signup-container #submit-align{
+    text-align: center;
+}
+
+.signup-submit:hover{
+    background-color: rgba(26, 243, 26, 0.9);
+}
+
+/*Estilos del menu inicio*/
+.inicio-section1, .inicio-section3{
+    background-color: rgb(75, 159, 128);
+    color: beige;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    margin: 10px 20px 20px 0px;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
+    -ms-border-radius: 0px 20px 20px 0px;
+    -o-border-radius: 0px 20px 20px 0px;
+}
+
+.inicio-section2{
+    background-color: rgb(242, 242, 242);
+    color: black;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    margin: 10px 0px 20px 10px;
+    border-radius: 20px 0px 0px 20px;
+    -webkit-border-radius: 20px 0px 0px 20px;
+    -moz-border-radius: 20px 0px 0px 20px;
+    -ms-border-radius: 20px 0px 0px 20px;
+    -o-border-radius: 20px 0px 0px 20px;
+}
+
+#container section p::selection{
+    color: black;
+}
+
+#container section h1::selection{
+    color: black;
+}
+#container section ul{
+    padding: 20px;
+}
+
+#container section ul li::selection{
+    color: black;
+}
+
+/*Estilos areas asistenciales*/
+.areas-section1{
+    background-color: rgb(75, 159, 128);
+    color: beige;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    margin: 10px 20px 20px 0px;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
+    -ms-border-radius: 0px 20px 20px 0px;
+    -o-border-radius: 0px 20px 20px 0px;
+}
+
+.areas-section2{
+    background-color: rgb(242, 242, 242);
+    color: black;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    margin: 10px 0px 20px 10px;
+    border-radius: 20px 0px 0px 20px;
+    -webkit-border-radius: 20px 0px 0px 20px;
+    -moz-border-radius: 20px 0px 0px 20px;
+    -ms-border-radius: 20px 0px 0px 20px;
+    -o-border-radius: 20px 0px 0px 20px;
+}
+
+.areas-section3{
+    background-color: rgb(75, 159, 128);
+    color: beige;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    margin: 10px 20px 20px 0px;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
+    -ms-border-radius: 0px 20px 20px 0px;
+    -o-border-radius: 0px 20px 20px 0px;
+}
+
+/*Estilos pagina de obras sociales*/
+.obra-section1{
+    background-color: rgb(75, 159, 128);
+    color: beige;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    margin: 10px 20px 20px 0px;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
+    -ms-border-radius: 0px 20px 20px 0px;
+    -o-border-radius: 0px 20px 20px 0px;
+}
+
+.obra-table{
+    background-color: beige;
+    color: black;
+    width: 700px;
+    margin: 10px auto;
+}
+
+.obra-table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.obra-table table th{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.obra-table table tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.obra-table table tr td{
+    padding: 20px;
+    margin: 10px;
+}
+
+/*Estilo de la pagina de login*/
+.login-container{
+    margin: 50px auto;
+    background-color: rgb(3, 85, 238);
+    color: black;
+    width: 500px;
+    border-radius: 20px 0px 20px 0px;
+    border: blue solid 3px;
+    -webkit-border-radius: 20px 0px 20px 0px;
+    -moz-border-radius: 20px 0px 20px 0px;
+    -ms-border-radius: 20px 0px 20px 0px;
+    -o-border-radius: 20px 0px 20px 0px;
+}
+
+.login-container table{
+    width: 100%;
+}
+
+.login-table {
+    border-collapse: collapse;
+}
+
+.login-table tr th{
+    padding: 10px;
+    text-align: center;
+}
+
+.login-table tr td{
+    padding: 5px;
+    text-align: left;
+}
+
+.login-table label{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-input{
+    width: 90%;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#login-centrar{
+    text-align: center;
+}
+
+.login-entrar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    padding: 3px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.login-entrar:hover{
+    background-color: rgba(26, 243, 26, 0.9);
+}
+
+.login-registrarse{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-registrarse:hover{
+    color: rgb(224, 7, 61);
+    font-size: 20px;
+}
+
+#login-max{
+    height: 410px;
+}
+
+/*Dashboar del usuario paciente*/
+#table-usuario-historial-container {
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 10px;
+    color: black;
+    width: 60%;
+    background-color: rgb(75, 159, 128);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#table-usuario-historial{
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#table-usuario-historial tr th{
+    padding: 10px;
+    border-bottom: 2px solid green;
+}
+
+#table-usuario-historial tr td{
+    padding: 20px;
+    border-bottom: 2px solid green;
+}
+
+#mensaje-bienvenida{
+    width: 75%;
+    margin: 20px auto;
+    background-color: rgb(75, 159, 128);
+    color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-bottom: 5px green solid;
+}
+
+#mensaje-bienvenida h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+#mensaje-usuario {
+    padding: 10px;
+    margin: 30px auto;
+    width: 85%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 5px goldenrod solid;
+    background-color: beige;
+    color: black;
+}
+
+#mensaje-usuario h1,p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+}
+
+#mensaje-usuario p{
+    font-weight: lighter;
+    font-size: 20px;
+    font-stretch: expanded;
+}
+
+#mensaje-usuario h2{
+    padding: 10px;
+    text-align: right;
+}
+
+
+#usuario-turnos-pendientes {
+    margin: 15px auto;
+    color: black;
+    min-width: 80%;
+    max-width: 95%;
+    background-color: rgb(75, 159, 128);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px green solid;
+}
+
+#table-turnos-pendientes{
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#table-turnos-pendientes tr td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 2px solid green;
+}
+
+#table-turnos-pendientes tr th{
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 2px solid green;
+}
+
+
+
+/*Estilos de datos del paciente*/
+
+
+#logo-container{
+    text-align: center;
+    padding: 10px;
+}
+
+#datos-logo{
+    border: 2px solid green;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#container-datos-paciente{
+    border-radius: 25px;
+    border: 2px green solid;
+    padding: 10px;
+    background-color: rgb(75, 159, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 30px auto;
+    width: 70%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+#table-datos-paciente td{
+    border-bottom: 2px solid green;
+    padding: 20px;
+    text-align: center;
+}
+#table-datos-paciente{
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+#table-datos-paciente th{
+    text-align: center;
+}
+
+#datos-paciente-titulo {
+    text-align: center;
+}
+
+#table-datos-paciente input, select{
+    padding: 6px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* estilos para la pagina de turnos */
+#container-buscar-turnos {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    border: 2px green solid;
+    background-color: rgb(75, 159, 128);
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-buscar-table{
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+}
+
+#container-buscar-table th{
+    border-bottom: 2px solid green;
+    padding: 10px;
+}
+
+#container-buscar-table select{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#container-buscar-table input{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#container-buscar-principal{
+    margin-bottom: 150px;
+}
+
+#container-buscar-resultados {
+    margin: 20px auto;
+    min-width: 80%;
+    max-width: 90%;
+    text-align: center;
+    border: 2px green solid;
+    background-color: rgb(75, 159, 128);
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-buscar-resultados-table{
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+}
+#container-buscar-resultados-table td{
+    border-bottom: green solid 2px;
+}
+
+#container-buscar-resultados-table input{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* estilos para la pagina index del administrador */
+
+#container-admin-nueva-agenda{
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(75, 159, 128);
+    margin: 30px auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 2px solid green;
+    padding: 5px;
+}
+
+#table-admin-nueva-agenda{
+    border-collapse: collapse;
+    margin: 5px auto;
+    width: 85%;
+    padding: 10px;
+}
+
+#table-admin-nueva-agenda th{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid green;
+}
+
+#table-admin-nueva-agenda #checkbox #true{
+    height: 18px;
+    width: 18px;
+}
+
+#table-admin-nueva-agenda input, select, textarea{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#table-admin-nueva-agenda textarea {
+    overflow: scroll;
+    resize: none;
+}
+
+#submit{
+    text-align: center;
+}
+
+#submit td input{
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 15px;
+}
+
+/* Estilos de la pagina buscar agenda del administrador*/
+
+#container-buscar-resultados-administrador{
+    margin: 20px auto;
+    min-width: 80%;
+    max-width: 95%;
+    text-align: center;
+    border: 2px green solid;
+    background-color: rgb(75, 159, 128);
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-buscar-resultados-table-administrador{
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+}
+
+#container-buscar-resultados-table-administrador td{
+    background-color: rgba(3, 82, 3, 0.7);
+    border-bottom: green solid 2px;
+    padding-bottom: 15px;
+}
+
+#container-buscar-resultados-table-administrador th{
+    padding: 10px;
+    border-bottom: green solid 2px;
+}
+
+#container-buscar-resultados-table-administrador input, select{
+    padding: 6px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#container-buscar-agenda {
+    width: 70%;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(75, 159, 128);
+    margin: 30px auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 2px solid green;
+    padding: 5px;
+}
+
+#table-buscar-agenda{
+    border-collapse: collapse;
+    margin: 5px auto;
+    width: 55%;
+    padding: 10px;
+}
+
+#table-buscar-agenda th{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid green;
+}
+
+#table-buscar-agenda input, select{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#buscar-agenda-mostrar{
+    min-width: 80%;
+    max-width: 95%;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(75, 159, 128);
+    margin: 30px auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+#table-buscar-agenda-mostrar{
+    border-collapse: collapse;
+    margin: 5px auto;
+    width: 100%;
+    padding: 10px;
+}
+
+#table-buscar-agenda-mostrar th{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 3px solid green;
+}
+
+#table-buscar-agenda-mostrar td{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-bottom: 2px solid green;
+}
+
+#table-buscar-agenda-mostrar input, select, button{
+    padding: 6px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* Estilos de la pagina buscar pacientes de administracion */
+
+#container-buscar-resultados-admin{
+    margin: 20px auto;
+    min-width: 80%;
+    max-width: 95%;
+    text-align: center;
+    border: 2px green solid;
+    background-color: rgb(75, 159, 128);
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-buscar-resultados-table-admin{
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+}
+
+#container-buscar-resultados-table-admin td{
+    border-bottom: green solid 2px;
+}
+
+#container-buscar-resultados-table-admin input{
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#usuario-turnos-pendientes-admin {
+    margin: 15px auto;
+    color: black;
+    min-width: 80%;
+    max-width: 95%;
+    background-color: rgb(75, 159, 128);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px green solid;
+}
+
+#usuario-riesgoso{
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+#table-turnos-pendientes-admin{
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#table-turnos-pendientes-admin tr td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 2px solid green;
+}
+
+#table-turnos-pendientes-admin tr th{
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 2px solid green;
+}
+
+#table-turnos-pendientes-admin input, select{
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* Pagina de error 404 */
+
+#error404 img{
+    image-rendering: optimizeQuality;
+    width: 100%;
+    max-height: 450px;
+}
