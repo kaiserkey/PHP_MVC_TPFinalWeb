@@ -1,0 +1,150 @@
+{
+    "sites":[
+        {
+            "site" : "", 
+            "access" : "public", 
+            "role" : ""
+        },
+
+        {
+            "site" : "signup", 
+            "access" : "public", 
+            "role" : ""
+        },
+
+        {
+            "site" : "dashboard", 
+            "access" : "private", 
+            "role" : "paciente"
+        },
+
+        {
+            "site" : "administrarTurnos", 
+            "access" : "private", 
+            "role" : "administracion"
+        },
+
+        {
+            "site" : "reservarTurnos", 
+            "access" : "private", 
+            "role" : "administracion"
+        },
+
+        {
+            "site" : "buscarPacientes", 
+            "access" : "private", 
+            "role" : "administracion"
+        },
+
+        {
+            "site" : "areasLog", 
+            "access" : "private", 
+            "role" : "paciente"
+        },
+
+        {
+            "site" : "obrassocialesLog", 
+            "access" : "private", 
+            "role" : "paciente"
+        },
+
+        {
+            "site" : "inicioLog", 
+            "access" : "private", 
+            "role" : "paciente"
+        },
+
+        {
+            "site" : "areasLog", 
+            "access" : "private", 
+            "role" : "administrador"
+        },
+
+        {
+            "site" : "obrassocialesLog", 
+            "access" : "private", 
+            "role" : "administrador"
+        },
+
+        {
+            "site" : "inicioLog", 
+            "access" : "private", 
+            "role" : "administrador"
+        },
+
+        {
+            "site" : "areasLog", 
+            "access" : "private", 
+            "role" : "administracion"
+        },
+
+        {
+            "site" : "obrassocialesLog", 
+            "access" : "private", 
+            "role" : "administracion"
+        },
+
+        {
+            "site" : "inicioLog", 
+            "access" : "private", 
+            "role" : "administracion"
+        },
+
+        {
+            "site" : "administracion", 
+            "access" : "private", 
+            "role" : "administracion"
+        },
+
+        {
+            "site" : "paciente", 
+            "access" : "private", 
+            "role" : "paciente"
+        },
+
+        {
+            "site" : "turnos", 
+            "access" : "private", 
+            "role" : "paciente"
+        },
+
+        {
+            "site" : "gestionarAgendas", 
+            "access" : "private", 
+            "role" : "administrador"
+        },
+
+        {
+            "site" : "gestionarMedicos", 
+            "access" : "private", 
+            "role" : "administrador"
+        },
+
+        {
+            "site" : "gestionarAdmision", 
+            "access" : "private", 
+            "role" : "administrador"
+        },
+
+        {
+            "site" : "buscarDatos", 
+            "access" : "private", 
+            "role" : "administrador"
+        },
+
+        {
+            "site" : "gestionarRoles", 
+            "access" : "private", 
+            "role" : "administrador"
+        }
+
+    ],
+
+    "default-sites":
+    {
+        "paciente": "dashboard",
+        "administrador": "gestionarAgendas",
+        "administracion": "administrarTurnos"
+    }
+    
+}
